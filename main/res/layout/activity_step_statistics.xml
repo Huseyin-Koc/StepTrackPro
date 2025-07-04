@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Başlık: "İstatistikler" -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Geri Butonu -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:contentDescription="@string/back"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp" />
+
+    <!-- Toplam Adım: 0 -->
+    <TextView
+        android:id="@+id/totalStepsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backButton"
+        android:text="@string/total_steps_label"
+        android:textSize="18sp" />
+
+    <!-- Toplam Kalori -->
+    <TextView
+        android:id="@+id/totalCaloriesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalStepsTextView"
+        android:text="@string/total_calories_label"
+        android:textSize="18sp" />
+
+    <!-- Adım Sayısı Grafiği -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/stepsChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/totalCaloriesTextView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Kalori Grafiği -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/caloriesChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/stepsChart"
+        android:layout_marginTop="16dp" />
+
+    <!-- Paylaş Butonu -->
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/caloriesChart"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

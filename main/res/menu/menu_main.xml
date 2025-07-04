@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/action_profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_task"
+        android:title="@string/action_add_task"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_view_statistics"
+        android:title="@string/action_view_statistics"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_view_tasks"
+        android:title="@string/action_view_tasks"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_language"
+        android:title="@string/action_language"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+</menu>

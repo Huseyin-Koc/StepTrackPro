@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Step Tracking</string>
+
+    <!-- "Back" -->
+    <string name="back">Back</string>
+
+    <!-- Main Screen Button -->
+    <string name="add_step_button">Add New Step</string>
+
+    <!-- Menu items -->
+    <string name="action_profile">Profile</string>
+    <string name="action_add_task">Add Task</string>
+    <string name="action_view_statistics">Statistics</string>
+    <string name="action_view_tasks">Tasks</string>
+    <string name="action_language">Language</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- Language Dialog -->
+    <string name="turkish">Turkish</string>
+    <string name="english">English</string>
+    <string name="language_selection">Language Selection</string>
+    <string name="ok_button_text">OK</string>
+
+    <!-- Login / Create Account -->
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <!-- Profile Create/Update -->
+    <string name="create_profile">Create Profile</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="name_hint">Your Name</string>
+    <string name="height_hint">Height (cm)</string>
+    <string name="weight_hint">Weight (kg)</string>
+    <string name="age_hint">Age</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="label_name">Name: (example)</string>
+    <string name="label_email">Email: (example)</string>
+    <string name="label_height">Height</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_age">Age</string>
+    <string name="update">Update</string>
+
+    <!-- Add/Edit Step -->
+    <string name="add_step_title">Add Step</string>
+    <string name="step_count_hint">Step Count  </string>
+    <string name="duration_hint">Duration (in minutes)</string>
+    <string name="date_hint">Pick a date</string>
+    <string name="edit_step_title">Edit Step</string>
+    <string name="duration_hint_extended">Duration (e.g. 30 minutes)</string>
+    <string name="date_hint_extended">Date (e.g. 05.12.2024)</string>
+
+    <!-- Add Task -->
+    <string name="add_task">Add Task</string>
+    <string name="target_step_hint">Target Step Count</string>
+    <string name="target_calorie_hint">Target Calorie</string>
+    <string name="priority_hint">Priority (High, Medium, Low)</string>
+
+    <!-- Statistics -->
+    <string name="statistics">Statistics</string>
+    <string name="total_steps_label">Total Steps: </string>
+    <string name="total_calories_label">Total Calories: </string>
+    <string name="share">Share</string>
+
+    <!-- Task List -->
+    <string name="tasks">Tasks</string>
+
+    <!-- single_step_item -->
+    <string name="step_count">Step Count :</string>
+    <string name="duration">Duration</string>
+    <string name="date">Date</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- single_task_item -->
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="priority_label">Priority: </string>
+    <string name="completed">Completed</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+
+    <!-- General Button -->
+    <string name="save">Save</string>
+
+    <string name="profile">Profile</string>
+
+
+    <string name="name_label">Name: </string>
+    <string name="email_label">Email: </string>
+    <string name="height_label">Height: </string>
+    <string name="weight_label">Weight: </string>
+    <string name="age_label">Age: </string>
+
+    <string name="edit_profile_button">Edit Profile</string>
+    <!-- values-en/strings.xml (İngilizce) -->
+    <string name="no_name">No Name</string>
+    <string name="no_email">No Email</string>
+    <string name="unknown">Unknown</string>
+    <!-- values-en/strings.xml (İngilizce) -->
+
+    <string name="step_count_label">Step Count:</string>
+    <string name="calorie_label">Calories (kcal)</string>
+    <string name="share_step_stats_text">Share Step Statistics</string>
+    <!-- values-en/strings.xml -->
+    <string name="target_step_display">Target %1$s steps</string>
+    <string name="target_calorie_display">Target %1$s kcal</string>
+
+    <string name="calendar_event_title">Target Steps %1$s</string>
+    <string name="calendar_event_desc">Target Calorie: %1$s</string>
+    <!-- values-en/strings.xml -->
+
+    <string name="duration_label">Duration: </string>
+    <string name="minute_label">minutes</string>
+    <string name="date_label">Date: </string>
+
+
+
+
+
+</resources>

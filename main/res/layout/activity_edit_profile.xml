@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Geri Butonu -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/back"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <!-- Başlık: "Profili Güncelle" -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_profile"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Profil Resmi -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/profile_image"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Ad (değiştirilemez) -->
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_name"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- E-posta (değiştirilemez) -->
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_email"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Bilgi: "Boy" -->
+        <TextView
+            android:id="@+id/infoEditableHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_height"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Boy -->
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/height_hint"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Bilgi: "Kilo" -->
+        <TextView
+            android:id="@+id/infoEditableWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_weight"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Kilo -->
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/weight_hint"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Bilgi: "Yaş" -->
+        <TextView
+            android:id="@+id/infoEditableAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_age"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Yaş -->
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age_hint"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Güncelle Butonu -->
+        <Button
+            android:id="@+id/updateProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update" />
+
+    </LinearLayout>
+</ScrollView>

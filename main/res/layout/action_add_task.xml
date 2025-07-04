@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Başlık: "Görev Ekle" -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_task"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Geri Butonu -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:contentDescription="@string/back"
+        android:layout_margin="16dp" />
+
+    <!-- Hedef Adım Sayısı -->
+    <EditText
+        android:id="@+id/targetStepEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/target_step_hint"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Hedef Kalori -->
+    <EditText
+        android:id="@+id/targetCalorieEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/target_calorie_hint"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Görev Önceliği -->
+    <EditText
+        android:id="@+id/priorityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/priority_hint"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+</LinearLayout>

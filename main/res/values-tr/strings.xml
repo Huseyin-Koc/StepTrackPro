@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Uygulama Adı -->
+    <string name="app_name">Adım Takibi</string>
+
+    <!-- Geri butonu contentDescription -->
+    <string name="back">Geri</string>
+
+    <!-- Ana Ekran Butonu -->
+    <string name="add_step_button">Yeni Adım Ekle</string>
+
+    <!-- Menüler (örnek) -->
+    <string name="action_profile">Profil</string>
+    <string name="action_add_task">Görev Ekle</string>
+    <string name="action_view_statistics">İstatistikler</string>
+    <string name="action_view_tasks">Görevler</string>
+    <string name="action_language">Dil Seçimi</string>
+    <string name="action_logout">Çıkış Yap</string>
+
+    <!-- Dil Seçim Dialog -->
+    <string name="turkish">Türkçe</string>
+    <string name="english">İngilizce</string>
+    <string name="language_selection">Dil Seçimi</string>
+    <string name="ok_button_text">Tamam</string>
+
+    <!-- Giriş / Kayıt -->   <string name="login">Giriş Yap</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="email_hint">E-posta</string>
+    <string name="password_hint">Şifre</string>
+
+    <!-- Profil Oluştur / Güncelle -->
+    <string name="create_profile">Profil Oluştur</string>
+    <string name="profile_image">Profil Resmi</string>
+    <string name="name_hint">Adınız</string>
+    <string name="height_hint">Boy (cm)</string>
+    <string name="weight_hint">Kilo (kg)</string>
+    <string name="age_hint">Yaş</string>
+    <string name="update_profile">Profili Güncelle</string>
+    <string name="label_name">Adınız: (örnek)</string>
+    <string name="label_email">E-posta: (örnek)</string>
+    <string name="label_height">Boy</string>
+    <string name="label_weight">Kilo</string>
+    <string name="label_age">Yaş</string>
+    <string name="update">Güncelle</string>
+
+    <!-- Adım Ekle / Düzenle -->
+    <string name="add_step_title">Adım Ekle</string>
+    <string name="step_count_hint">Adım Sayısı</string>
+    <string name="duration_hint">Harcanan Süre (dakika bazında)</string>
+    <string name="date_hint">Tarih Seçiniz</string>
+    <string name="edit_step_title">Adım Düzenle</string>
+    <string name="duration_hint_extended">Harcanan Süre (örneğin: 30 dakika)</string>
+    <string name="date_hint_extended">Tarih (örneğin: 05.12.2024)</string>
+
+    <!-- Görev Ekle -->
+    <string name="add_task">Görev Ekle</string>
+    <string name="target_step_hint">Hedef Adım Sayısı</string>
+    <string name="target_calorie_hint">Hedef Kalori</string>
+    <string name="priority_hint">Öncelik (Yüksek, Orta, Düşük)</string>
+
+    <!-- İstatistikler -->
+    <string name="statistics">İstatistikler</string>
+    <string name="total_steps_label">Toplam Adım: </string>
+    <string name="total_calories_label">Toplam Kalori: </string>
+    <string name="share">Paylaş</string>
+
+    <!-- Görev Listesi -->
+    <string name="tasks">Görevler</string>
+
+    <!-- single_step_item -->
+    <string name="step_count">Adım Sayısı : </string>
+    <string name="duration">Harcanan Süre</string>
+    <string name="date">Tarih</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+
+    <!-- single_task_item -->
+    <string name="task_title">Görev Başlığı</string>
+    <string name="task_description">Görev Açıklaması</string>
+    <string name="priority_label">Öncelik: </string>
+    <string name="completed">Tamamlandı</string>
+    <string name="add_to_calendar">Takvime Ekle</string>
+
+    <!-- Genel Buton -->
+    <string name="save">Kaydet</string>
+
+
+    <!-- "Profil" başlık -->
+    <string name="profile">Profil</string>
+
+    <!-- Profil resmi contentDescription -->
+
+    <!-- Label: Ad, Email, Boy, Kilo, Yaş -->
+    <string name="name_label">Ad: </string>
+    <string name="email_label">E-posta: </string>
+    <string name="height_label">Boy: </string>
+    <string name="weight_label">Kilo: </string>
+    <string name="age_label">Yaş: </string>
+
+    <!-- "Profili Düzenle" buton metni -->
+    <string name="edit_profile_button">Profili Düzenle</string>
+    <!-- values/strings.xml (Türkçe) -->
+    <string name="no_name">Ad Yok</string>
+    <string name="no_email">Email Yok</string>
+    <string name="unknown">Bilinmiyor</string>
+    <!-- values/strings.xml (Türkçe) -->
+
+    <string name="step_count_label">Adım Sayısı</string>
+    <string name="calorie_label">Kalori (kcal)</string>
+    <string name="share_step_stats_text">Adım İstatistiklerini Paylaş</string>
+    <!-- values/strings.xml (TR) -->
+    <string name="target_step_display">Hedef %1$s adım</string>
+    <string name="target_calorie_display">Hedef %1$s kcal</string>
+
+    <string name="calendar_event_title">Hedef Adım %1sd</string>
+    <string name="calendar_event_desc">Hedef Kalori: %1sd</string>
+    <!-- values/strings.xml (TR) -->
+    g>
+    <string name="duration_label">Harcanan Süre: </string>
+    <string name="minute_label">dakika</string>
+    <string name="date_label">Tarih: </string>
+
+
+
+
+
+
+
+</resources>
