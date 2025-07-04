@@ -30,20 +30,37 @@ To promote regular physical activity and simplify health tracking by enabling:
 - **Libraries:** RecyclerView, ConstraintLayout, BarChart, pickImageLauncher  
 - **SDK Version:** minSdk 24 / targetSdk 34  
 
-📸 Screenshots
-🔐 Login Screen
-<img src="assets/login.png" width="250"/>
-👤 Create Profile
-<img src="assets/create_profile.png" width="250"/>
-🏠 Home Screen
-<img src="assets/home_screen.png" width="250"/>
-➕ Add Step
-<img src="assets/add_step.png" width="250"/>
-📊 Statistics Screen
-<img src="assets/statistics_screen.png" width="250"/>
-🌍 Language Selector
-<img src="assets/language_selector.png" width="250"/>
+## 📸 Screenshots
 
+### 🔐 Login Screen
+![](https://github.com/user-attachments/assets/3ef2a228-6ce4-4c5e-831c-27d372b18917)
+
+---
+
+### 👤 Create Profile
+![](https://github.com/user-attachments/assets/d50d0c37-b44a-4956-807f-ae51424e907d)
+
+---
+
+### 🏠 Home Screen
+![](https://github.com/user-attachments/assets/bfade80f-e232-4038-a00d-81a881a54ffd)
+
+---
+
+### ➕ Add Step
+![](https://github.com/user-attachments/assets/26f8ac2d-0869-427a-bfd4-2abe165f2d64)
+
+---
+
+### 📊 Statistics Screen
+![](https://github.com/user-attachments/assets/c22ea195-8ab1-470d-8bc3-313d4442223c)
+
+---
+
+### 🌍 Language Selector
+![](https://github.com/user-attachments/assets/f29b2b4a-aa5c-4e71-99dd-87179b3d2df6)
+
+---
 
 ## 🔧 Setup Instructions
 
