@@ -32,35 +32,13 @@ To promote regular physical activity and simplify health tracking by enabling:
 
 ## 📸 Screenshots
 
-### 🔐 Login Screen
-![](https://github.com/user-attachments/assets/3ef2a228-6ce4-4c5e-831c-27d372b18917)
+| Login Screen | Create Profile | Home Screen | Add Step |
+|--------------|----------------|-------------|----------|
+| ![Ekran görüntüsü 2025-07-05 021934](https://github.com/user-attachments/assets/23055808-d020-4fe2-b7c0-f5a709acacb3) | ![Ekran görüntüsü 2025-07-05 021950](https://github.com/user-attachments/assets/b97424fb-8767-48f7-8d5d-785f0d5996bd) | ![Ekran görüntüsü 2025-07-05 022007](https://github.com/user-attachments/assets/816dee1c-83d5-4e45-a04d-046d6d86c3f0) | ![Ekran görüntüsü 2025-07-05 022025](https://github.com/user-attachments/assets/69a5f1c0-19dd-4878-936f-b23df7c6c9ce) |
 
----
-
-### 👤 Create Profile
-![](https://github.com/user-attachments/assets/d50d0c37-b44a-4956-807f-ae51424e907d)
-
----
-
-### 🏠 Home Screen
-![](https://github.com/user-attachments/assets/bfade80f-e232-4038-a00d-81a881a54ffd)
-
----
-
-### ➕ Add Step
-![](https://github.com/user-attachments/assets/26f8ac2d-0869-427a-bfd4-2abe165f2d64)
-
----
-
-### 📊 Statistics Screen
-![](https://github.com/user-attachments/assets/c22ea195-8ab1-470d-8bc3-313d4442223c)
-
----
-
-### 🌍 Language Selector
-![](https://github.com/user-attachments/assets/f29b2b4a-aa5c-4e71-99dd-87179b3d2df6)
-
----
+| Statistics Screen | Language Selector |
+|-------------------|--------------------|
+| ![Ekran görüntüsü 2025-07-05 022037](https://github.com/user-attachments/assets/2f5f496f-b1bf-4a4e-85a4-e322a6025626) |![Ekran görüntüsü 2025-07-05 022055](https://github.com/user-attachments/assets/f9f8ce99-1704-435f-b305-59c1c49bd2a1) |
 
 ## 🔧 Setup Instructions
 
